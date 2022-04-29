@@ -23,16 +23,16 @@ programa
 		leia(numero)
 
 		//condicao
-		se(numero <0 e numero <= 0.25){
+		se(numero >=0 e numero <= 0.25){
 			escreva("Indice de poluição aceitável")
 			
-		}senao se (numero >= 0.3){
+		}senao se (numero >=0.26 e numero <= 0.30){
 			escreva("Suspender as atividades das industrias grupo 1")
 			
-		}senao se (numero >= 0.4){
+		}senao se (numero >=0.31 e numero <= 0.40){
 			escreva("Suspender as atividades das industrias grupo 2")
 		
-		}senao se (numero >= 0.5){
+		}senao se (numero >= 0.41){
 			escreva("Suspender as atividades das industrias grupo 3")
 		}
 	}
@@ -42,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 796; 
+ * @POSICAO-CURSOR = 1127; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
